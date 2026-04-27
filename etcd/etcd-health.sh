@@ -1,0 +1,2 @@
+ETCDCTL_API=3
+/usr/local/bin/etcdctl --write-out=table --cacert=/etc/etcd/ssl/ca.pem --cert=/etc/etcd/ssl/etcd.pem --key=/etc/etcd/ssl/etcd-key.pem --endpoints=https://192.168.253.129:2379,https://192.168.253.130:2379,https://192.168.253.131:2379 endpoint health 
